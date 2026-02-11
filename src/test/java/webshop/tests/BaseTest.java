@@ -15,8 +15,8 @@ public abstract class BaseTest {
     protected LoginPage loginPage;
 
     protected static final String BASE_URL = EnvReader.get("BASE_URL", "https://www.saucedemo.com/");
-    protected static final String VALID_USERNAME = EnvReader.get("VALID_USERNAME");
-    protected static final String VALID_PASSWORD = EnvReader.get("VALID_PASSWORD");
+    protected static final String VALID_USERNAME = EnvReader.get("VALID_USERNAME", "standard_user");
+    protected static final String VALID_PASSWORD = EnvReader.get("VALID_PASSWORD", "secret_sauce");
 
     @BeforeAll
     static void setUpAll() {
