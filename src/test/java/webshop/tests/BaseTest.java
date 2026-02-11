@@ -14,7 +14,7 @@ public abstract class BaseTest {
     protected Page page;
     protected LoginPage loginPage;
 
-    protected static final String BASE_URL = EnvReader.get("BASE_URL");
+    protected static final String BASE_URL = EnvReader.get("BASE_URL", "https://www.saucedemo.com/");
     protected static final String VALID_USERNAME = EnvReader.get("VALID_USERNAME");
     protected static final String VALID_PASSWORD = EnvReader.get("VALID_PASSWORD");
 
