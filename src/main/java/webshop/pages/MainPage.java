@@ -62,7 +62,7 @@ public class MainPage {
         for (Locator item : inventoryItems.all()) {
             Locator nameLocator = item.locator(itemName);
             if (nameLocator.innerText().equals(name)) {
-                item.locator("button").click();
+                item.locator(addToCartButton).click();
                 return;
             }
         }
