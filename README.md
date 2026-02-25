@@ -187,7 +187,6 @@ The project is actively under development, roadmap usually will line up with Sel
 - [x] Implement shopping cart tests (add/remove items, cart validation)  
 - [x] Implement checkout flow tests  
 - [x] Integrate project with CI (Jenkins)   
-- [ ] Add tests for user session handling  *[IN PROGRESS]*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
