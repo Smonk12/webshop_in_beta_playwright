@@ -17,7 +17,7 @@
   <h3 align="center">Webshop In Beta – Playwright</h3>
 
   <p align="center">
-    Automated end-to-end UI tests in Java using Microsoft Playwright and JUnit to validate the core workflows of a demo webshop
+    Playwright-based end-to-end UI test automation framework in Java using JUnit 5 to validate core webshop workflows, built alongside a parallel Selenium implementation for framework comparison.
     <br />
     <a href="https://github.com/Smonk12/webshop_in_beta_playwright"><strong>Explore the docs »</strong></a>
   </p>
@@ -49,15 +49,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project is a **modern test automation framework** for a basic webshop ([Sauce Demo](https://www.saucedemo.com/)). It focuses on validating **core user workflows** such as:
+This project is a **modern Playwright-based test automation framework** for the Sauce Demo webshop (https://www.saucedemo.com/), designed to validate **core user workflows** through reliable end-to-end testing.
 
--   **User login and authentication**
--   **Adding and removing products from the shopping cart**
--   **Checkout process and form validation**
+It covers essential e-commerce scenarios such as:
 
-The tests are implemented in **Java** using **Microsoft Playwright** for **reliable and fast browser automation** and **JUnit 5** for **test execution and assertions**.
+- **User login and authentication**
+- **Adding and removing products from the shopping cart**
+- **Checkout process and form validation**
 
-This project demonstrates a **clean, maintainable, and scalable approach** to **end-to-end test automation**, helping improve **test reliability**, **execution speed**, and **overall confidence** in the application’s quality.
+The tests are implemented in **Java** using **Microsoft Playwright** for **fast, stable, and modern browser automation**, combined with **JUnit 5** for structured test execution and assertions.
+
+This project demonstrates a **clean, maintainable, and scalable automation architecture**, focusing on improved **execution speed**, **test reliability**, and **developer feedback cycles**.
+
+For comparison, the same webshop automation project was also implemented using **Selenium WebDriver**, highlighting differences between traditional and modern automation frameworks:  
+https://github.com/Smonk12/webshop_in_beta.git
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
